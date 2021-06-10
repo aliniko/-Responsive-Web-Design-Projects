@@ -21,6 +21,7 @@ body
     display: inline-block;
     margin-left: 10px;
     text-align: center;
+    font-size: 2em;
 }
 
  #nav-bar{
@@ -38,7 +39,8 @@ body
 
 #nav-bar ul li{
     display: inline-block;
-    float: right;
+    font-size: 1.7em;
+    text-indent: 1.3em;    
 }
 
 #nav-bar a{
@@ -49,4 +51,35 @@ body
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#page-wrapper{
+    padding: 5% 15%;
+}
+
+.hero{
+    margin: auto;
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.form{
+    padding: 1em;
+    
+}
+
+#email{
+    display: block;
+    padding: 6px 40px 6px 6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#submit{
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: yellow;
+    font-weight: bold;
+
 }
