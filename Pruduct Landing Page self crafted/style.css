@@ -6,22 +6,24 @@ body
 }
 
 #header{
-    background-color: rgb(119, 110, 110);
-
+    background-color: rgb(59, 54, 54);
+    position: fixed;
+    width: 100%;
 }
 
 #header-img{
-    height: 60px;
+    height: 50px;
     display: inline-block;
     margin: 0;
     padding: 0;
 }
 
- h3{
+ #header h3{
     display: inline-block;
     margin-left: 10px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.1em;
+    color: honeydew;
 }
 
  #nav-bar{
@@ -29,7 +31,7 @@ body
     float: right;
     overflow: hidden;
     float: right;
-    font-size: 1em;
+    font-size: .8em;
     text-align: center;
 }
 /* 
@@ -55,11 +57,13 @@ body
 
 #page-wrapper{
     padding: 5% 15%;
+    padding-bottom: 5px;
+
 }
 
 .hero{
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding-bottom: 40px;
 }
 
@@ -83,3 +87,82 @@ body
     font-weight: bold;
 
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    padding-bottom: 2em;
+
+}
+
+.grid .icon{
+    color: rgb(104, 95, 235);
+}
+
+#video{
+    width: 70%;
+    padding: 5% 20%;
+}
+
+#price{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 2% 5%;
+}
+
+.product{
+    width: 30%;
+    font-size: 1.2em;
+    
+}
+
+.product .level{
+    padding-bottom: 12px;
+
+}
+
+.product ol li{
+ list-style: none;
+ padding-top: 8px;
+}
+
+.btn{
+    padding: 5% 10%;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: hotpink;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+footer{
+    padding-top: 20px;
+    margin-top: 40px;
+    direction: rtl;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+footer ul li{
+    list-style: none;
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+.copyright{
+    margin-top: 10px;
+}
+
