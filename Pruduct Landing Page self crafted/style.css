@@ -166,3 +166,60 @@ footer ul li{
     margin-top: 10px;
 }
 
+/* for the small screen size */
+@media screen and (max-width: 736px){
+   
+    #header{
+        /* max-height: 50px; */
+
+    }
+
+    #nav-bar{
+        font-size: .5em;
+        float: right;
+    }
+   
+    #nav-bar ul li{
+        /* margin: 3px; */
+        font-size: 10px;
+        text-indent: 0;
+        padding: 0;
+        margin: 0;
+        float: left;
+
+    }
+   
+    #header h3{
+       font-size: .5em;
+   } 
+
+   #email{
+       padding: 8px 2px;
+        margin: 6px 0;
+    }
+  
+   .hero{
+       margin-top: 40px;
+       width: 90%;
+   }
+
+   #page-wrapper{
+       width: 50%;
+       font-size: 10px;
+   }
+    .grid{
+        display: flex;
+    }
+    #featur{
+        width: 100%;
+    }
+    #price{
+        display: grid;
+        
+    }
+    .product{
+        width: 98%;
+        padding-bottom: 15px;
+    }
+
+}
